@@ -14,7 +14,7 @@ const Contact = () => {
           <div className="contact-info">
             <div className="info-item">
               <FaPhoneAlt className="info-icon" />
-              <span>+234 800 000 0000</span>
+              <span>+234 9121204436</span>
             </div>
             <div className="info-item">
               <FaEnvelope className="info-icon" />
@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div className="info-item">
               <FaMapMarkerAlt className="info-icon" />
-              <span>123 Business Avenue, Lagos, Nigeria</span>
+              <span>1 Jasnoris avenue . Uselu-ahor community off benin by-pass. Benin city , Edo state</span>
             </div>
           </div>
 

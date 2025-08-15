@@ -39,10 +39,12 @@
     flex: 1;
   }
   
-  .about-text h2 {
+  h2 {
     font-size: 2.5rem;
     color: #5A2D82;
-    margin-bottom: 1rem;
+    text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem
   }
   
   .about-text p {

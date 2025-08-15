@@ -4,19 +4,21 @@ import "./About.css";
 const About = () => {
   return (
     <section className="about" id="about">
+      {/* Centered Heading */}
+      <h2 className="about-title">About Us</h2>
+
       <div className="about-container">
         {/* Left: Image Collage */}
         <div className="about-images">
-          <img src="/images/farm.jpg" alt="Mechanized Farming" className="img-large" />
+          <img src="farm.jpg" alt="Mechanized Farming" className="img-large" />
           <div className="img-stack">
-            <img src="/" alt="Construction Work" className="img-small" />
+            <img src="tractor.jpg" alt="Construction Work" className="img-small" />
             <img src="/images/realestate.jpg" alt="Real Estate" className="img-small" />
           </div>
         </div>
 
         {/* Right: Company Info */}
         <div className="about-text">
-          <h2>About Us</h2>
           <p>
             Founded in 2015, <strong>Jasnoris Resource Limited</strong> has grown into a 
             multifaceted enterprise in agriculture, construction, and real estate. 

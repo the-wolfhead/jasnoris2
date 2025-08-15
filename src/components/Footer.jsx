@@ -28,10 +28,10 @@ const Footer = () => {
         <div className="footer-socials">
           <h4>Follow Us</h4>
           <div className="social-icons">
-            <a href="#"><FaFacebookF /></a>
+           {/*} <a href="#"><FaFacebookF /></a>
             <a href="#"><FaTwitter /></a>
-            <a href="#"><FaLinkedinIn /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href="#"><FaLinkedinIn /></a>{*/}
+            <a href="https://www.instagram.com/jasnorisinteriors/"><FaInstagram /></a>
           </div>
         </div>
       </div>
