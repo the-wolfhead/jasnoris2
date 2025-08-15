@@ -1,0 +1,43 @@
+import React from "react";
+import "./About.css";
+
+const About = () => {
+  return (
+    <section className="about" id="about">
+      <div className="about-container">
+        {/* Left: Image Collage */}
+        <div className="about-images">
+          <img src="/images/farm.jpg" alt="Mechanized Farming" className="img-large" />
+          <div className="img-stack">
+            <img src="/" alt="Construction Work" className="img-small" />
+            <img src="/images/realestate.jpg" alt="Real Estate" className="img-small" />
+          </div>
+        </div>
+
+        {/* Right: Company Info */}
+        <div className="about-text">
+          <h2>About Us</h2>
+          <p>
+            Founded in 2015, <strong>Jasnoris Resource Limited</strong> has grown into a 
+            multifaceted enterprise in agriculture, construction, and real estate. 
+            We deliver innovative solutions with uncompromising quality, exceeding 
+            client expectations across sectors.
+          </p>
+          <p>
+            Our vision is to enhance productivity, efficiency, and sustainable growth 
+            while empowering communities and contributing to national development.
+          </p>
+
+          {/* Highlight Stats */}
+          <div className="about-stats">
+            <div><span>10+</span><p>Years of Excellence</p></div>
+            <div><span>100+</span><p>Projects Delivered</p></div>
+            <div><span>Nationwide</span><p>Operational Reach</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;

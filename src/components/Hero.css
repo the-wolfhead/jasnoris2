@@ -1,0 +1,61 @@
+.hero {
+    height: 100vh;
+    background: url("./images/image0.jpg") center/cover no-repeat; /* Replace with your image */
+    position: relative;
+  }
+  
+  .hero-overlay {
+    background: rgba(90, 45, 130, 0.7); /* Purple overlay */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #FFD700; /* Gold text */
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .btn-gold {
+    background-color: #FFD700;
+    color: #5A2D82;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-outline-gold {
+    background: transparent;
+    border: 2px solid #FFD700;
+    color: #FFD700;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-gold:hover,
+  .btn-outline-gold:hover {
+    opacity: 0.85;
+  }
+  

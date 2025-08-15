@@ -1,0 +1,40 @@
+.cta {
+    background: #FFD700; /* Gold background */
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #5A2D82; /* Purple text */
+  }
+  
+  .cta-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .cta p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background: #5A2D82;
+    color: #FFD700;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.05);
+    background: #4a2268; /* Darker purple on hover */
+  }
+  
