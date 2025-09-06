@@ -36,6 +36,21 @@ const About = () => {
             <div><span>100+</span><p>Projects Delivered</p></div>
             <div><span>Nationwide</span><p>Operational Reach</p></div>
           </div>
+
+          {/* CEO Excerpt */}
+      <div className="ceo-section">
+        <img src="ceo.jpg" alt="CEO" className="ceo-img" />
+        <div className="ceo-text">
+          <p className="ceo-quote">
+            "At Jasnoris Resource Limited, our mission has always been to create lasting
+            impact through innovation, integrity, and excellence. Every project we embark
+            on is an opportunity to build not just structures, but trust and value for our
+            clients and communities."
+          </p>
+          <h4 className="ceo-name">Engr. John Doe</h4>
+          <p className="ceo-title">Chief Executive Officer</p>
+        </div>
+      </div>
         </div>
       </div>
     </section>
