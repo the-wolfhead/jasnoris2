@@ -13,7 +13,7 @@ const About = () => {
           <img src="farm.jpg" alt="Mechanized Farming" className="img-large" />
           <div className="img-stack">
             <img src="tractor.jpg" alt="Construction Work" className="img-small" />
-            <img src="/images/realestate.jpg" alt="Real Estate" className="img-small" />
+            <img src="https://www.altusgroup.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2F8jgyidtgyr4v%2F7g0iQrheP8cUtIH7NgsvxY%2F1941e579cc2a752cfb4cb50dc8943b1c%2FInsight_8_-_Breaking_Down_The_Major_Real_Estate_Valuation_Methods.jpg&w=1920&q=75" alt="Real Estate" className="img-small" />
           </div>
         </div>
 
@@ -47,7 +47,7 @@ const About = () => {
             on is an opportunity to build not just structures, but trust and value for our
             clients and communities."
           </p>
-          <h4 className="ceo-name">Engr. John Doe</h4>
+          <h4 className="ceo-name">Jasper Ataghoman</h4>
           <p className="ceo-title">Chief Executive Officer</p>
         </div>
       </div>
