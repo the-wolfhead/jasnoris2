@@ -31,7 +31,7 @@ const Footer = () => {
            {/*} <a href="#"><FaFacebookF /></a>
             <a href="#"><FaTwitter /></a>
             <a href="#"><FaLinkedinIn /></a>{*/}
-            <a href="https://www.instagram.com/jasnorisinteriors/"><FaInstagram /></a>
+            <a href="https://www.instagram.com/jasnorisresourcesltd"><FaInstagram /></a>
           </div>
         </div>
       </div>
